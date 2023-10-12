@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: ["class"],
+  darkMode: "class",
   content: [
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
@@ -16,6 +16,9 @@ module.exports = {
       },
     },
     extend: {
+        fontFamily: {
+            sans: ["Inter", "sans-serif"],
+        },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
