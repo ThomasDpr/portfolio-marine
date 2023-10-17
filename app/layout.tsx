@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description:
         "Marine Noizet, monteuse vidéo expérimentée, spécialisée dans le montage créatif, les effets spéciaux et la réalisation de contenus visuels captivants.",
     icons: {
-        icon: ["/public/meta/favicon.ico"],
+        icon: ["/favicon.ico"],
         apple: ["/apple-touch-icon.png"],
         shortcut: ["/apple-touch-icon.png"],
     },
@@ -36,7 +36,7 @@ export default function RootLayout({
                     enableSystem>
                     <div className="flex flex-col h-full w-full">
                         <Header />
-                        <div className="flex-1 max-w-screen-xl	 m-auto py-12 w-full ">
+                        <div className="flex-1 max-w-screen-xl  m-auto w-full pt-28 md:pt-48">
                             {children}
                         </div>
                     </div>
