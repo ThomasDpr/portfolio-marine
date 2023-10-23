@@ -15,9 +15,9 @@ export const MobileMenu = ({ toggleMenu }: Props) => {
 
     return (
         <div
-            className="fixed inset-0 bg-background/50 backdrop-blur "
-            onClick={toggleMenu}>
-            <div className="flex flex-col fixed right-0 top-0 w-[70%] h-screen p-5 bg-background backdrop-blur border rounded-l-2xl animate-in slide-in-from-right duration-300 gap-4 overflow-y-auto">
+        className="fixed inset-0 bg-background/50 backdrop-blur z-20"
+        onClick={toggleMenu}>
+            <div className="flex flex-col fixed right-0 top-0 w-[70%] h-full p-5 bg-background backdrop-blur border rounded-l-2xl animate-in slide-in-from-right duration-300 gap-4 overflow-y-auto">
                 <div className="flex items-center justify-between">
                     <Link href="/">
                         <span className="flex items-center gap-4 cursor-pointer">
