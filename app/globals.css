@@ -86,3 +86,22 @@
     75% { transform: rotate(-5deg); }
     100% { transform: rotate(0deg); }
 }
+
+.avatar-effect:hover .rotate-avatar {
+    animation: spinIn 1s cubic-bezier(0.55, 0.27, 0.32, 1.27) 1;
+}
+
+.avatar-effect:not(:hover) .rotate-avatar {
+    animation: spinOut 1s cubic-bezier(0.55, 0.27, 0.32, 1.27) 1;
+}
+
+
+@keyframes spinIn {
+    from { transform: rotateY(0deg); }
+    to { transform: rotateY(360deg); }
+}
+
+@keyframes spinOut {
+    from { transform: rotateY(360deg); }
+    to { transform: rotateY(0deg); }
+}

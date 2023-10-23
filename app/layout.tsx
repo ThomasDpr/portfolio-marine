@@ -4,6 +4,7 @@ import { Poppins } from "next/font/google";
 import { ThemeProvider } from "@/components/theme/ThemeProvider";
 import clsx from "clsx";
 import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 
 const poppins = Poppins({
     subsets: ["latin"],
@@ -36,9 +37,10 @@ export default function RootLayout({
                     enableSystem>
                     <div className="flex flex-col h-full w-full">
                         <Header />
-                        <div className="flex-1 max-w-screen-xl  m-auto w-full pt-28 md:pt-48">
+                        <div className="flex-1 max-w-screen-xl m-auto w-full pt-28 md:pt-48">
                             {children}
                         </div>
+                        <Footer />
                     </div>
                 </ThemeProvider>
             </body>
