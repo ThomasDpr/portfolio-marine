@@ -1,12 +1,13 @@
-import React from 'react';
-import './globals.css';
-import type { Metadata } from 'next';
-import { Poppins } from 'next/font/google';
-import { ThemeProvider } from '@/components/theme/ThemeProvider';
-import clsx from 'clsx';
 import { Footer } from '@/components/Footer';
 import { Navbar } from '@/components/Navbar';
+import { ThemeProvider } from '@/components/theme/ThemeProvider';
 import { Toaster } from '@/components/ui/toaster';
+import clsx from 'clsx';
+import type { Metadata } from 'next';
+import { Poppins } from 'next/font/google';
+import React from 'react';
+
+import './globals.css';
 
 const poppins = Poppins({
     subsets: ['latin'],

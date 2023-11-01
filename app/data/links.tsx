@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaInstagram, FaBehance, FaLinkedin } from 'react-icons/fa6';
+import { FaBehance, FaInstagram, FaLinkedin } from 'react-icons/fa6';
 
 export const links = [
     {
