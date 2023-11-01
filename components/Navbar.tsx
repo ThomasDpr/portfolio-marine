@@ -27,7 +27,7 @@ export const Navbar = () => {
     }, [menuOpen]);
 
     return (
-        <>
+        <div className="fixed left-0 right-0 top-0 z-10 w-full px-2 py-2 md:px-8 md:py-8 ">
             <div className="container py-4 lg:py-6 flex justify-between items-center border bg-white/50 dark:bg-black/50 backdrop-blur drop-shadow-sm rounded-2xl">
                 <Link href="/">
                     <span className="flex items-center gap-4">
@@ -117,6 +117,6 @@ export const Navbar = () => {
             </div>
 
             {menuOpen && <MobileMenu toggleMenu={toggleMenu} />}
-        </>
+        </div>
     );
 };

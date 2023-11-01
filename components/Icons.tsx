@@ -1,4 +1,3 @@
-import { DesktopIcon } from "@radix-ui/react-icons";
 import {
     LucideProps,
     Moon,
@@ -10,7 +9,9 @@ import {
     Layers,
     Menu,
     X,
+    Download,
 } from "lucide-react";
+
 
 export type Icon = LucideIcon;
 
@@ -23,6 +24,7 @@ export const Icons = {
     layers: Layers,
     menu: Menu,
     x: X,
+    download: Download,
     logo: (props: LucideProps) => (
         <svg
             xmlns="http://www.w3.org/2000/svg"

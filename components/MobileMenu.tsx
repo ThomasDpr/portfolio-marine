@@ -42,7 +42,7 @@ export const MobileMenu = ({ toggleMenu }: Props) => {
 
                 <div className="flex items-center self-end gap-1">
                     <span>Thème</span>
-                    <ThemeToggle aria-label="Changer de thème" />
+                    <ThemeToggle isModal aria-label="Changer de thème" />
                 </div>
 
                 <div className="flex flex-col gap-4 ">

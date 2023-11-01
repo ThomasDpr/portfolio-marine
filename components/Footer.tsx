@@ -19,7 +19,8 @@ import { LegalFooter } from "./LegalFooter";
 
 export const Footer = () => {
   return (
-    <footer className="px-2 py-2 md:px-8 md:py-8 ">
+    // <footer className="px-2 py-2 md:px-8 md:py-8 ">
+    <footer className="px-2 md:px-8 mt-40 ">
       <div className="container flex flex-col items-center gap-6 rounded-2xl border bg-white/50 py-4 drop-shadow-sm backdrop-blur dark:bg-black/50 lg:py-6">
         <div className="flex flex-col items-center gap-4">
           <h2 className="flex flex-col items-center text-xl font-semibold md:flex-row landscape:flex-row">
