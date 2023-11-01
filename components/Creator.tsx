@@ -1,16 +1,16 @@
-"use client";
-
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+'use client';
+import React from 'react';
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import {
     Tooltip,
     TooltipContent,
     TooltipProvider,
     TooltipTrigger,
-} from "@/components/ui/tooltip";
-import { Arrow } from "@radix-ui/react-tooltip";
+} from '@/components/ui/tooltip';
+import { Arrow } from '@radix-ui/react-tooltip';
 
-import Link from "next/link";
-import { FaArrowUpRightFromSquare } from "react-icons/fa6";
+import Link from 'next/link';
+import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
 
 export const CreatorIndication = () => {
     return (
@@ -19,14 +19,14 @@ export const CreatorIndication = () => {
                 href="https://www.tdupre.fr"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex gap-2 items-center avatar-effect ">
+                className="avatar-effect flex items-center gap-2 ">
                 <Tooltip>
                     <TooltipTrigger asChild>
-                        <Avatar className="rounded-full border border-gray-300 dark:border-gray-700 rotate-avatar ">
+                        <Avatar className="rotate-avatar rounded-full border border-gray-300 dark:border-gray-700 ">
                             <AvatarImage
                                 src="https://res.cloudinary.com/dimfha9hq/image/upload/v1695393723/portfolio_react/avatar-hero.webp"
                                 alt="Avatar de Thomas Dupré"
-                                className="object-cover bg-gray-100 dark:bg-gray-800 "
+                                className="bg-gray-100 object-cover dark:bg-gray-800 "
                             />
                             <AvatarFallback>TD</AvatarFallback>
                         </Avatar>
@@ -35,11 +35,11 @@ export const CreatorIndication = () => {
                         side="top"
                         sideOffset={20}
                         className="w-40 bg-transparent">
-                        <Avatar className="w-full h-full rounded-full border border-gray-300 dark:border-gray-700">
+                        <Avatar className="h-full w-full rounded-full border border-gray-300 dark:border-gray-700">
                             <AvatarImage
                                 src="https://res.cloudinary.com/dimfha9hq/image/upload/v1695393723/portfolio_react/avatar-hero.webp"
                                 alt="Avatar de Thomas Dupré"
-                                className="object-cover bg-gray-100 dark:bg-gray-800 hover:transform hover:scale-125 transition-all duration-300 hover:brightness-110"
+                                className="bg-gray-100 object-cover transition-all duration-300 hover:scale-125 hover:transform hover:brightness-110 dark:bg-gray-800"
                             />
                             <AvatarFallback>TD</AvatarFallback>
                         </Avatar>
@@ -49,7 +49,7 @@ export const CreatorIndication = () => {
 
                 <Tooltip>
                     <TooltipTrigger asChild>
-                        <div className="flex md:flex-col gap-1 md:gap-0 text-sm">
+                        <div className="flex gap-1 text-sm md:flex-col md:gap-0">
                             <span className="">Créé par</span>
                             <span className="font-bold text-red-700">
                                 Thomas Dupré

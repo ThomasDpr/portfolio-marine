@@ -1,3 +1,4 @@
+import React from 'react';
 import {
     LucideProps,
     Moon,
@@ -10,8 +11,7 @@ import {
     Menu,
     X,
     Download,
-} from "lucide-react";
-
+} from 'lucide-react';
 
 export type Icon = LucideIcon;
 
