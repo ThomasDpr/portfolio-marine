@@ -1,12 +1,13 @@
-import { links } from '@/app/data/links';
 import React from 'react';
+
+import { links } from '@/app/data/links';
 
 import { SocialLink } from './SocialLink';
 
 export const Description = () => {
     return (
-        <div className="gap- col-span-full col-start-1 row-start-1 flex flex-col items-center text-gray-800 dark:text-gray-200 md:col-span-6 md:col-start-2 md:row-span-6 md:row-start-2 md:items-start">
-            <h1 className="text-3xl font-extrabold md:text-5xl">
+        <div className="gap- col-span-full col-start-1 row-start-1 flex flex-col items-center gap-4 text-gray-800 dark:text-gray-200 md:col-span-6 md:col-start-2 md:row-span-6 md:row-start-2 md:items-start">
+            <h1 className="text-3xl font-extrabold md:text-5xl ">
                 Marine Noizet
             </h1>
             <h2 className="text-xl font-semibold text-gray-500 dark:text-gray-400 md:text-3xl">

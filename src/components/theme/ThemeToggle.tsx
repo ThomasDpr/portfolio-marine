@@ -1,5 +1,10 @@
 'use client';
 
+import React from 'react';
+import clsx from 'clsx';
+import { Laptop2, Moon, Sun } from 'lucide-react';
+import { useTheme } from 'next-themes';
+
 import { Button } from '@/src/components/ui/button';
 import {
     DropdownMenu,
@@ -7,10 +12,6 @@ import {
     DropdownMenuItem,
     DropdownMenuTrigger,
 } from '@/src/components/ui/dropdown-menu';
-import clsx from 'clsx';
-import { Laptop2, Moon, Sun } from 'lucide-react';
-import { useTheme } from 'next-themes';
-import React from 'react';
 
 import { Icons } from '../Icons';
 

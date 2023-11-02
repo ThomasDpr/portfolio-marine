@@ -1,11 +1,12 @@
-import { Button, buttonVariants } from '@/src/components/ui/button';
+import React from 'react';
 import clsx from 'clsx';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import React from 'react';
 
-import { Icons } from './Icons';
+import { Button, buttonVariants } from '@/src/components/ui/button';
+
 import { ThemeToggle } from './theme/ThemeToggle';
+import { Icons } from './Icons';
 
 type Props = {
     toggleMenu: () => void;

@@ -1,5 +1,10 @@
 'use client';
 
+import React from 'react';
+import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
+import { Arrow } from '@radix-ui/react-tooltip';
+import Link from 'next/link';
+
 import {
     Avatar,
     AvatarFallback,
@@ -11,10 +16,6 @@ import {
     TooltipProvider,
     TooltipTrigger,
 } from '@/src/components/ui/tooltip';
-import { Arrow } from '@radix-ui/react-tooltip';
-import Link from 'next/link';
-import React from 'react';
-import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
 
 export const CreatorIndication = () => {
     return (

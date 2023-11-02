@@ -126,35 +126,3 @@
 .icon-visible:hover .icon-download {
     display: block;
 }
-/*
-.showreels-btn {
-    width: 25%;
-    height: 25%;
-    display: block;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 55%;
-    -ms-transform: translate(-55%, -50%);
-    transform: translate(-55%, -50%);
-}
-
-.circle-text {
-    font-size: 24px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    fill: #333;
-}
-
-.circle-svg {
-    height: 250px;
-    width: 250px;
-}
-.absolute-center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */

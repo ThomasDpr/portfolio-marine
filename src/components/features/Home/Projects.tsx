@@ -1,5 +1,6 @@
-import { Separator } from '@/src/components/ui/separator';
 import React from 'react';
+
+import { Separator } from '@/src/components/ui/separator';
 
 export const Projects = () => {
     return (

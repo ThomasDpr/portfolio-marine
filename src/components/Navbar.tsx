@@ -1,14 +1,15 @@
 'use client';
 
-import { Button, buttonVariants } from '@/src/components/ui/button';
+import React, { useEffect, useState } from 'react';
 import clsx from 'clsx';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import React, { useEffect, useState } from 'react';
 
+import { Button, buttonVariants } from '@/src/components/ui/button';
+
+import { ThemeToggle } from './theme/ThemeToggle';
 import { Icons } from './Icons';
 import { MobileMenu } from './MobileMenu';
-import { ThemeToggle } from './theme/ThemeToggle';
 
 export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);

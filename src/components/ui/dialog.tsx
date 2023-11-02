@@ -1,9 +1,10 @@
 'use client';
 
-import { cn } from '@/src/lib/utils';
+import * as React from 'react';
 import * as DialogPrimitive from '@radix-ui/react-dialog';
 import { Cross2Icon } from '@radix-ui/react-icons';
-import * as React from 'react';
+
+import { cn } from '@/src/lib/utils';
 
 const Dialog = DialogPrimitive.Root;
 
@@ -106,12 +107,12 @@ DialogDescription.displayName = DialogPrimitive.Description.displayName;
 
 export {
     Dialog,
-    DialogPortal,
-    DialogOverlay,
-    DialogTrigger,
     DialogContent,
-    DialogHeader,
-    DialogFooter,
-    DialogTitle,
     DialogDescription,
+    DialogFooter,
+    DialogHeader,
+    DialogOverlay,
+    DialogPortal,
+    DialogTitle,
+    DialogTrigger,
 };

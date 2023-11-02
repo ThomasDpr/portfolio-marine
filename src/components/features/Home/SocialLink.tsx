@@ -1,7 +1,8 @@
-import { buttonVariants } from '@/src/components/ui/button';
+import React from 'react';
 import clsx from 'clsx';
 import Link from 'next/link';
-import React from 'react';
+
+import { buttonVariants } from '@/src/components/ui/button';
 
 type Props = {
     id: string;

@@ -1,6 +1,7 @@
+import React from 'react';
+
 import { Avatar } from '@/src/components/features/Home/Avatar';
 import { Description } from '@/src/components/features/Home/Description';
-import React from 'react';
 
 export const Header = () => {
     return (

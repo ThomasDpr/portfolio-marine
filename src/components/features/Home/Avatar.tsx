@@ -1,11 +1,11 @@
-import { Icons } from '@/src/components/Icons';
-import { buttonVariants } from '@/src/components/ui/button';
+import React from 'react';
 import clsx from 'clsx';
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
 
-import avatar from '@/public/avatar.png';
+import avatar from '@/public/assets/images/avatar.png';
+import { Icons } from '@/src/components/Icons';
+import { buttonVariants } from '@/src/components/ui/button';
 
 export const Avatar = () => {
     return (
@@ -32,9 +32,11 @@ export const Avatar = () => {
                         alt="Avatar de Marine Noizet"
                         className="rounded-2xl backdrop-blur-sm"
                         src={avatar}
+                        priority
+                        placeholder="empty"
                     />
                     <Link
-                        href="/Marine_Noizet.pdf"
+                        href="/assets/pdf/Marine_Noizet.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={clsx(

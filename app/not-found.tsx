@@ -1,6 +1,7 @@
-import { Button } from '@/src/components/ui/button';
-import Link from 'next/link';
 import React from 'react';
+import Link from 'next/link';
+
+import { Button } from '@/src/components/ui/button';
 
 export default function NotFound() {
     return (

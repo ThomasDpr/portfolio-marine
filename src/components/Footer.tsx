@@ -1,19 +1,19 @@
 import React from 'react';
-import FooterIcon from '../components/FooterIcon.svg';
-import Image from 'next/image';
-import { Button } from './ui/button';
-import Link from 'next/link';
 import {
-    FaLinkedin,
-    FaInstagram,
-    FaPhone,
     FaEnvelope,
-    FaLocationDot,
+    FaInstagram,
     FaLaptop,
+    FaLinkedin,
+    FaLocationDot,
+    FaPhone,
 } from 'react-icons/fa6';
+import Image from 'next/image';
+import Link from 'next/link';
 
+import FooterIcon from '@/public/assets/svg/FooterIcon.svg';
+
+import { Button } from './ui/button';
 import { CreatorIndication } from './Creator';
-
 import { LegalFooter } from './LegalFooter';
 
 export const Footer = () => {

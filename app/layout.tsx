@@ -1,11 +1,12 @@
+import React from 'react';
+import clsx from 'clsx';
+import type { Metadata } from 'next';
+import { Poppins } from 'next/font/google';
+
 import { Footer } from '@/src/components/Footer';
 import { Navbar } from '@/src/components/Navbar';
 import { ThemeProvider } from '@/src/components/theme/ThemeProvider';
 import { Toaster } from '@/src/components/ui/toaster';
-import clsx from 'clsx';
-import type { Metadata } from 'next';
-import { Poppins } from 'next/font/google';
-import React from 'react';
 
 import './globals.css';
 
@@ -20,8 +21,8 @@ export const metadata: Metadata = {
         'Marine Noizet, monteuse vidéo expérimentée, spécialisée dans le montage créatif, les effets spéciaux et la réalisation de contenus visuels captivants.',
     icons: {
         icon: ['/favicon.ico'],
-        apple: ['/apple-touch-icon.png'],
-        shortcut: ['/apple-touch-icon.png'],
+        apple: ['/assets/icons/apple-touch-icon.png'],
+        shortcut: ['/assets/icons//assets/icons/apple-touch-icon.png'],
     },
     manifest: '/site.webmanifest',
 };

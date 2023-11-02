@@ -1,8 +1,9 @@
 'use client';
 
-import { Separator } from '@/src/components/ui/separator';
-import Link from 'next/link';
 import React from 'react';
+import Link from 'next/link';
+
+import { Separator } from '@/src/components/ui/separator';
 
 export const LegalFooter = () => {
     const currentYear = new Date().getFullYear();
